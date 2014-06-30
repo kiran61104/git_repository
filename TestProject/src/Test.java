@@ -9,12 +9,17 @@ public class Test {
 		System.out.println("Hi Start Coding");
 		Test test = new Test();
 		test.initGit();
+		test.pushToGit();
 		
 		
 	}
 	
 	public void initGit(){
 		System.out.println("Started using Git ");
+	}
+	
+	public void pushToGit(){
+		System.out.println("Push to Git ");
 	}
 
 }
