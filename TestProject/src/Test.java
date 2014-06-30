@@ -20,6 +20,8 @@ public class Test {
 	
 	public void pushToGit(){
 		System.out.println("Push to Git ");
+		System.out.println("After Push");
+		System.out.println("Before fetching the previous pull ");
 	}
 
 }
